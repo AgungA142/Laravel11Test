@@ -29,6 +29,11 @@ use OpenApi\Attributes as OA;
     name: 'Auth',
     description: 'Auth related operations'
 ),]
+
+#[OA\Tag(
+    name: 'Admin',
+    description: 'Admin related operations'
+),]
 abstract class Controller
 {
     //
